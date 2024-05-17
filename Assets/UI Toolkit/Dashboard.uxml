@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Dashboard" style="flex-grow: 1; align-items: stretch; justify-content: space-around; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
+        <ui:Label tabindex="-1" text="Dashboard" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Header" style="font-size: 50px; -unity-text-align: middle-center;" />
+        <ui:VisualElement name="Music" style="flex-grow: 1; flex-direction: row; justify-content: space-between;">
+            <ui:Label tabindex="-1" text="Music" parse-escape-sequences="true" display-tooltip-when-elided="true" style="flex-basis: 50%; align-items: auto; justify-content: space-between; align-self: center; font-size: 30px;" />
+            <ui:Toggle name="MusicToggle" picking-mode="Ignore" usage-hints="None" style="justify-content: space-around; flex-direction: row; align-items: stretch; align-self: auto; flex-wrap: wrap-reverse; font-size: 35px; white-space: normal; -unity-text-align: upper-left; text-overflow: clip; -unity-font: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&quot;); flex-basis: 50%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="SFX" style="flex-grow: 1; flex-direction: row; justify-content: space-between;">
+            <ui:Label tabindex="-1" text="SFX" parse-escape-sequences="true" display-tooltip-when-elided="true" style="flex-basis: 50%; align-items: auto; justify-content: space-between; align-self: center; font-size: 30px;" />
+            <ui:Toggle name="SFXToggle" picking-mode="Ignore" usage-hints="None" style="justify-content: space-around; flex-direction: row; align-items: stretch; align-self: auto; flex-wrap: wrap-reverse; font-size: 35px; white-space: normal; -unity-text-align: upper-left; text-overflow: clip; -unity-font: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&quot;); flex-basis: 50%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Save" style="flex-grow: 1; flex-direction: row; justify-content: space-between;">
+            <ui:Label tabindex="-1" text="Save" parse-escape-sequences="true" display-tooltip-when-elided="true" style="flex-basis: 50%; align-items: auto; justify-content: space-between; align-self: center; font-size: 30px;" />
+            <ui:Toggle name="SaveToggle" picking-mode="Ignore" usage-hints="-1" style="justify-content: space-around; flex-direction: row; align-items: stretch; align-self: auto; flex-wrap: wrap-reverse; font-size: 35px; white-space: normal; -unity-text-align: upper-left; text-overflow: clip; -unity-font: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&quot;); flex-basis: 50%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Background" style="flex-grow: 1; flex-direction: row; justify-content: space-between;">
+            <ui:Label tabindex="-1" text="Background" parse-escape-sequences="true" display-tooltip-when-elided="true" style="flex-basis: 50%; align-items: auto; justify-content: space-between; align-self: center; font-size: 30px;" />
+            <ui:Toggle name="BackgroundToggle" picking-mode="Ignore" usage-hints="-1" style="justify-content: space-around; flex-direction: row; align-items: stretch; align-self: auto; flex-wrap: wrap-reverse; font-size: 35px; white-space: normal; -unity-text-align: upper-left; text-overflow: clip; -unity-font: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&quot;); flex-basis: 50%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="CardBG" style="flex-grow: 1; flex-direction: row; justify-content: space-between;">
+            <ui:Label tabindex="-1" text="Card BG" parse-escape-sequences="true" display-tooltip-when-elided="true" style="flex-basis: 50%; align-items: auto; justify-content: space-between; align-self: center; font-size: 30px;" />
+            <ui:Toggle name="CardBGToggle" picking-mode="Ignore" usage-hints="-1" style="justify-content: space-around; flex-direction: row; align-items: stretch; align-self: auto; flex-wrap: wrap-reverse; font-size: 35px; white-space: normal; -unity-text-align: upper-left; text-overflow: clip; -unity-font: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&quot;); flex-basis: 50%;" />
+        </ui:VisualElement>
+        <ui:Button text="Start" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StartButton" style="font-size: 30px;" />
+    </ui:VisualElement>
+</ui:UXML>
